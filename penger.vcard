@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Skytteren;Stein Kåre;Mr.
+FN:Stein Kåre Skytteren
+ORG:Penger.no AS
+TITLE:Teknisk Leder
+PHOTO;VALUE=URL;TYPE=GIF:http://skytteren.no/vcard/penger.gif
+TEL;TYPE=WORK,VOICE:+47 922 56 047
+EMAIL;TYPE=PREF,INTERNET:sk@penger.no
+REV:2014-03-14T19:52:43Z
+END:VCARD
