@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Skytteren;Stein Kåre
+FN:Stein Kåre Skytteren
+PHOTO;VALUE=URL;TYPE=PNG:http://skytteren.no/vcard/head.png
+TEL;TYPE=WORK,VOICE:+47 922 56 047
+EMAIL;TYPE=PREF,INTERNET:sk@skytteren.no
+REV:2014-03-14T19:52:43Z
+END:VCARD
