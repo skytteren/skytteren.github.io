@@ -14,13 +14,13 @@
         <h3>Categories</h3>
 	<ul class="categories">
           {% for category in page.categories %}
-            <li><a href="{{ category }}">{{ category }}</a></li>
+            <li>{{ category }}</li>
           {% endfor %}
 	</ul>
         <h3>Tags</h3>
         <ul class="tags">
           {% for tag in page.tags %}
-            <li><a href="{{ tag }}">{{ tag }}</a></li>
+            <li>{{ tag }}</li>
           {% endfor %}
         </ul>
       </div>
