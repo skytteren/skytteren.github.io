@@ -1,0 +1,11 @@
+---
+layout: post
+title: VCard
+code: Vcard
+---
+
+In order to make it easy to distribute correct information about my contact information I descided to create vcard. 
+The [Wikipedia page for vcards](http://en.wikipedia.org/wiki/VCard) have different versions. 
+I personally don't need the latest versions so I decided to use version 3 to support lots of clients (I hope). 
+My [personal vcard](/skytteren.vcard) has it [source on github](https://github.com/skytteren/skytteren.github.io/blob/master/skytteren.vcard).
+
