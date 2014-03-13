@@ -4,7 +4,7 @@ title: VCard
 categories:
 - Code
 tags: 
-- Vcard
+- VCard
 ---
 
 In order to make it easy to distribute correct information about my contact information I descided to create vcard. 
