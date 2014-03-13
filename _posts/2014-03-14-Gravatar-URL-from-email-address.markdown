@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gravatar URL from email address in Scala
+date: 2014-03-14 21:35:30
 categories:
 - Code
 tags: 
