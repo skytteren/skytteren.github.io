@@ -1,7 +1,10 @@
 ---
 layout: post
 title: VCard
-code: Vcard
+categories:
+- Code
+tags: 
+- Vcard
 ---
 
 In order to make it easy to distribute correct information about my contact information I descided to create vcard. 
