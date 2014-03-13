@@ -1,8 +1,12 @@
-<html>
-  <head>
-    <title>skytteren.no...</title>
-  </head>
-  <body>
-    <h1>skytteren.no</h1>
-  </body>
-</html>
+---
+layout: default
+title: Stein Kåre Skytteren
+---
+
+<h1>{{ page.title }}</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
