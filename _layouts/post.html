@@ -10,6 +10,20 @@
     </header>
     <section>
       <h1>{{ page.title }}</h1>
+      <div>
+        <h3>Categories</h3>
+	<ul class="categories">
+          {% for category in page.categories %}
+            <li><a href="{{ category }}">{{ category }}</a></li>
+          {% endfor %}
+	</ul>
+        <h3>Tags</h3>
+        <ul class="tags">
+          {% for tag in page.tags %}
+            <li><a href="{{ tag }}">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
       {{ content }}
     </section>
     <aside>
