@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <section>
+      {{ content }}
+    </section>
+    <aside>
+      <h2>Blog posts</h2>
+      <ul class="posts">
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <footer>
+    </footer>
+  </body>
+</html>
