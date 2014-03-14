@@ -1,0 +1,16 @@
+---
+layout: default
+title: Kite
+---
+
+<p>
+  Kite er knallbra fritidsaktivitet. Her er en liten samling av kiting.
+</p>
+
+<h2>Blog posts</h2>
+
+<ul>
+  {% for post in site.categories.kite %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
