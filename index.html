@@ -12,7 +12,7 @@ title: Stein Kåre Skytteren
 <!-- h3>Categories</h3>
 <ul>
   {% for category in site.categories %}
-    <li><a href="/category/{{ category }}.html">{{ category }}</a></li>
+    <li><a href="/category/{{ category.name }}.html">{{ category.name }}</a></li>
   {% endfor %}
 </ul>
 
