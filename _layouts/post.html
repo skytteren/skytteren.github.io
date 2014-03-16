@@ -6,7 +6,7 @@
   </head>
   <body>
     {% include header.html %}
-    <section>
+    <section class="container">
       <h1>{{ page.title }}</h1>
       <div>
         <h3>Categories</h3>
@@ -20,7 +20,7 @@
       </div>
       {{ content }}
     </section>
-    <aside>
+    <aside class="container">
       <h2>Blog posts</h2>
       <ul class="posts">
         {% for post in site.posts %}
@@ -28,7 +28,7 @@
         {% endfor %}
       </ul>
     </aside>
-    <footer>
+    <footer class="container">
     </footer>
   </body>
 </html>
