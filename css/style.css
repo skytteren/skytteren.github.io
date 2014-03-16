@@ -6,3 +6,8 @@ h1 .thin{
   font-weight: 100;
   word-spacing: -10;
 }
+
+.container{
+  max-width: 960;
+  margin: 0 auto;
+}
