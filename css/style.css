@@ -2,6 +2,11 @@ body {
   font-family: helvetica, sans-serif;
 }
 
+header a{
+  color: inherit;
+  text-decoration: none;
+}
+
 h1 .thin{
   font-weight: 100;
   word-spacing: -10;
