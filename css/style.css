@@ -1,4 +1,8 @@
 body {
+  font-family: helvetica, sans-serif;
+}
 
-  font-family: sans-serif;
+h1 .thin{
+  font-weight: 100;
+  word-spacing: -10;
 }
