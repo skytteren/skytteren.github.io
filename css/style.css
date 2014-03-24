@@ -1,6 +1,7 @@
 body {
   font-family: helvetica, sans-serif;
-  color: #484848;
+  color: #333;
+  background-color: #EEE;
 }
 
 header a{
