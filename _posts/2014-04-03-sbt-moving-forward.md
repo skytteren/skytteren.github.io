@@ -1,6 +1,11 @@
 ---
 layout: post
 title: sbt... moving forward
+categories:
+- code
+tags:
+- sbt
+- scala
 ---
 
 [sbt](http://www.scala-sbt.org) can be a though nut to crack.
