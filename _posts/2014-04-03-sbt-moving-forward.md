@@ -8,7 +8,7 @@ tags:
 - scala
 ---
 
-[sbt](http://www.scala-sbt.org) can be a though nut to crack.
+[sbt](http://www.scala-sbt.org) can be a hard nut to crack.
 
 [Josh Suereth](http://jsuereth.com) hated it as well but he has change his mind.
 Here he presents Sbt 1.0 - The Interactive Build Tool:
