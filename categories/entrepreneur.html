@@ -1,0 +1,17 @@
+---
+layout: default
+title: Entrepreneur
+---
+
+
+<p>
+  There are lots of fun stuff one can create to improve people lives and actually making a living out of.
+</p>
+
+<h2>Blog posts</h2>
+
+<ul class="posts">
+  {% for post in site.categories.entrepreneur %}
+    <li><span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
