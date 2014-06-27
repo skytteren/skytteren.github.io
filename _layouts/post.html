@@ -16,7 +16,11 @@
           {% endfor %}
 	</ul>
         <h3>Tags</h3>
-        <p class="tags">{{ page.tags | array_to_sentence_string }}</p>
+        <p class="tags">
+          {% for tag in page.tags %}
+            <span>#{{ category }} </span>
+          {% endfor %}
+        </p>
       </div>
       {{ content }}
       {% include comments.html %}
