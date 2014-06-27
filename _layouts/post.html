@@ -9,10 +9,11 @@
     <section class="container">
       <h1>{{ page.title }}</h1>
       <div class="categories">
-        Categories: {% for category in page.categories %}
+          Categories: {% for category in page.categories %}
           <span><a href="/categories/{{ category }}.html">{{ category }}</a></span> 
         {% endfor %}
       </div>
+      
       <div class="tags">
         {% for tag in page.tags %}
           <span>#{{ tag }} </span>
