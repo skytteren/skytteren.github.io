@@ -6,7 +6,7 @@
   </head>
   <body>
     {% include header.html %}
-    <div class="categories">
+    <div class="categories container">
       {% for category in page.categories %}
         <span><a href="/categories/{{ category }}.html">{{ category }}</a></span> 
       {% endfor %}
