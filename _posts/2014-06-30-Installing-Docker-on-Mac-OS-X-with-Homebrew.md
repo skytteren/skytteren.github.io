@@ -1,11 +1,12 @@
---
+---
 layout: post
 title: Installing Docker on OS X with Homebrew
+date: 2014-06-30
 categories: 
 - code
 tags: 
 - docker
---
+---
 
 The best way to install [Docker.io](http://docker.io) on Mac OS X is by using Homebrew. 
 At least at the time of writing this.
