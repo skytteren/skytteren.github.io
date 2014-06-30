@@ -1,13 +1,13 @@
 --
 layout: post
-title: Install Docker on OS X with Homebrew
+title: Installing Docker on OS X with Homebrew
 categories: 
 - code
 tags: 
 - docker
 --
 
-The best way to start [Docker.io](http://docker.io) on Mac OS X is by using Homebrew. 
+The best way to install [Docker.io](http://docker.io) on Mac OS X is by using Homebrew. 
 At least at the time of writing this.
 
 Before you start make sure you got a decent internet connection. 
@@ -32,7 +32,8 @@ Then initialise and start docker:
 This will have some output. 
 The important part is: `export DOCKER_HOST=tcp://:XXXX`. 
 Where XXXX is a port.
-Export this. Eg. run:
+Export this. 
+Eg. run:
 
 ``export DOCKER_HOST=tcp://:2375``
 
