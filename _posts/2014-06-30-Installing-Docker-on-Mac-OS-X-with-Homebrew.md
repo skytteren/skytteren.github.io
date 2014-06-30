@@ -15,7 +15,8 @@ Before you start make sure you got a decent internet connection.
 There is going to be a lot of downloading. 
 (Believe it or not but it beats maven).
 
-h2. boot2docker
+boot2docker
+-----------
 
 A Mac isn't linux it doesn't have the option of runing [LXC (linux containers)](https://linuxcontainers.org). 
 The easiest way around that is using boot2docker.
@@ -38,7 +39,8 @@ Eg. run:
 
 ``export DOCKER_HOST=tcp://:2375``
 
-h2. docker
+docker
+------
 
 In order to install docker run.
 
