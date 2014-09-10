@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Migrating an Elasticsearch index
+date: 2014-09-10
 categories:
  - nerd
 tags:
