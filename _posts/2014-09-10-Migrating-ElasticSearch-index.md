@@ -21,7 +21,7 @@ It also handles moving data from the old index over to the new.
 Code
 ----
 
-```
+{% highlight scala linenos %}
 package bootstrap
 
 import scala.annotation.implicitNotFound
@@ -97,7 +97,7 @@ class UpdateIndex(client: ElasticClient, indexName: String, types: Seq[MappingDe
 	}
 	
 }
-```
+{% endhighlight %}
 
 Disclaimer
 ----------
