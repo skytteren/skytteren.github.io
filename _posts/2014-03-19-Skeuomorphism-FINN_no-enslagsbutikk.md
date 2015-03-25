@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: no
 title: Skeuomorphism i en slags butikk fra FINN_no
 tags:
 - skeuomorphism
@@ -17,8 +18,8 @@ Her et par av de tingene jeg synes var litt morsome.
 Skeuomorphism
 -------------
 
-I IT kretser og spesielt rundt Apple sine produkter har det vært mye snakk om overgangen fra [skeuomorphism](http://no.wikipedia.org/wiki/Skeuomorfisme) til flat design. 
-FINN.no går enda mer mot skeuomorphism i sitt butikk design. 
+I IT kretser og spesielt rundt Apple sine produkter har det vært mye snakk om overgangen fra [skeuomorphism](http://no.wikipedia.org/wiki/Skeuomorfisme) til flat design.
+FINN.no går enda mer mot skeuomorphism i sitt butikk design.
 
 ![iPad skrivemaskin]({{ site.url }}/img/enslagsbutikk/iPadTypeWriter.png)
 
@@ -42,5 +43,3 @@ TL;DR
 -----
 
 Det er et fasinerede loppemarked/museum/opplevelsessenter som er verdt å ta en tur innom for å se på.
-
-

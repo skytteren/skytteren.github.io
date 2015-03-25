@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="{{ page.lang }}">
   <head>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css"/>
@@ -10,10 +10,10 @@
       <h1>{{ page.title }}</h1>
       <div class="categories">
           Categories: {% for category in page.categories %}
-          <span><a href="/categories/{{ category }}.html">{{ category }}</a></span> 
+          <span><a href="/categories/{{ category }}.html">{{ category }}</a></span>
         {% endfor %}
       </div>
-      
+
       <div class="tags">
         {% for tag in page.tags %}
           <span>#{{ tag }} </span>
@@ -33,7 +33,7 @@
     <footer class="container">
     <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  
+
     </footer>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

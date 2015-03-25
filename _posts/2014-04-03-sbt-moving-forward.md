@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: sbt... moving forward
 categories:
 - code
@@ -23,6 +24,3 @@ The guys at Banno has some valuable insight on how to use it without to much fri
 If you are completely new to sbt check older talks by [mr. Josh Suereth on youtube.com](http://www.youtube.com/results?search_query=josh+suereth+sbt)
 
 From last years [ScalaDays](http://www.scaladays.org/2013) the [Effective sbt](http://parleys.com/play/51c3790ae4b0d38b54f46259/chapter0/about) talk was great.
-
-
-
