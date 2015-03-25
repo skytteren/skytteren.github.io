@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: no
+lang: "no"
 title: Skeuomorphism i en slags butikk fra FINN_no
 tags:
 - skeuomorphism

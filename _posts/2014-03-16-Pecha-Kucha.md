@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: no
+lang: "no"
 title: Pecha Kucha
 categories:
 tags:
