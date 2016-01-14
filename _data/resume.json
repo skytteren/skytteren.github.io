@@ -73,12 +73,12 @@
   ],
   "experience": [
     {
-      "from": "",
-      "to": "",
-      "company": "",
-      "position": "",
+      "from": "2013.11",
+      "to": "2016.02",
+      "company": "FINN.no - PENGER.no AS",
+      "position": "Teknisk Leder",
       "description": "",
-      "keywords": ""
+      "keywords": ["arkitektur", "scala"]
     },
     {
       "from": "2012.01",
