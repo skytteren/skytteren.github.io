@@ -81,20 +81,44 @@
       "keywords": ""
     },
     {
-      "from": "",
-      "to": "",
-      "company": "",
-      "position": "",
-      "description": "",
-      "keywords": ""
+      "from": "2012.01",
+      "to": "2008.08",
+      "company": "Bekk Consulting AS",
+      "position": "Manager/Senior Consultant",
+      "description": "Prosjektleder, rådgiver, arkitekt og systemutvikler",
+      "keywords": ["bank og finans", "saksbehandling", "forvaltning", "modernisering", "metodikk" "prosjektledelse", "arkitektur", "java", "scala"]
     },
     {
-      "from": "",
-      "to": "",
-      "company": "",
-      "position": "",
+      "from": "2007.03",
+      "to": "2008.06",
+      "company": "Comperio AS",
+      "position": "Consultant",
+      "description": "Systemutvikler, teknisk prosjekleder og ansvarlig for kunnskapsprosessen",
+      "keywords": ["søkeintensive løsninger", "business intelligence", "Java", "metodikk"]
+    },
+    {
+      "from": "2015.08",
+      "to": "2007.03",
+      "company": "Steria AS",
+      "position": "Systemkonsulent",
       "description": "",
-      "keywords": ""
+      "keywords": ["saksbehandling", "modernisering", "Java", "Javascript"]
+    },
+    {
+      "from": "2001",
+      "to": "2005",
+      "company": "NTNU",
+      "position": "Undervisningsassistent",
+      "description": "Veileder i forskjellige fag; systemutvikling, objektorientert programmering, kundestyrt prosjekt, IT-intro.",
+      "keywords": "pedagogikk"
+    },
+    {
+      "from": "2001",
+      "to": "2004",
+      "company": "IBAS AS",
+      "position": "Teknisk assistent",
+      "description": "",
+      "keywords": ["data rekonstruksjon", "lagringsmedier", "data etterforskning"]
     }
   ],
   "skills": [
@@ -110,7 +134,8 @@
     {"name": "TOGAF 9 Certified","year": "2010"},
     {"name": "CSM Certified ScrumMaster with Jeff Sutherland","year": "2007"},
     {"name": "FAST ESP5 Intensive Courses","year": "2007"},
-    {"name": "CX-310-055, Sun Certified Programmer for the Java 2 Platform, Standard Edition 5.0","year": "2005"},
+    {"name": "Sun Certified Programmer for the Java 2 Platform, Standard Edition 5.0","year": "2005"},
     {"name": "ITIL Foundation v2 (3 dager), Foundation Certification in IT Service Management,"year": "2005"},
-  ]
+  ],
+  "interests": ["Ølbrygging", "Kite", "Telemark", "Familie"]
 }
