@@ -1,0 +1,59 @@
+{
+  "name": {
+    "first": "Stein Kåre",
+    "last": "Skytteren"
+  },
+  "birthday": {
+    "year": 1978,
+    "month": 2,
+    "date": 14
+  },
+  "contact": {
+    "address": {
+      "street": "Wilh. Wilhelmsens vei 95",
+      "areacode": "1362",
+      "area": "Hosle"
+    },
+    "phone": "922 56 047",
+    "email": {
+      "name": "sk",
+      "host": "skytteren.no"
+    }
+  },
+  "title": "",
+  "keywords": [""],
+  "summary": "", 
+  "education":  [
+    {
+      "from": "",
+      "to": "",
+      "institution": "",
+      "department": "",
+      "grade": "",
+      "description": "",
+      "keywords": ""
+    }
+  ],
+  "experience": [
+    {
+      "from": "",
+      "to": "",
+      "company": "",
+      "position": "",
+      "description": "",
+      "keywords": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": 5  
+    }
+  ],
+  "certifications": [
+    {
+      "name": "",
+      "year": ""
+    }
+  ]
+}
