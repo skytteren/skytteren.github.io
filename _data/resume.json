@@ -23,19 +23,71 @@
   },
   "title": "Senior",
   "keywords": [""],
-  "summary": "", 
+  "summary": "Stein Kåre er kreativ, oppgave og relasjonsfokusert, med høy arbeidskapasitet og gjennomføringsevne. Liker teamarbeid og karakteriseres som omgjenglig og positiv, med sans for utfordringer. Han har gjennom sine forskjellige studier og sin arbeidserfaring utviklet evnen til å forstå og mestre komplekse, tverrfaglig problemstillinger hurtig og nøyaktig.", 
   "education":  [
     {
-      "from": "",
-      "to": "",
-      "institution": "",
-      "department": "",
+      "from": "2000",
+      "to": "2005",
+      "institution": "Norges Teknisk-Naturvitenskaplige Universitet (NTNU)",
+      "department": "Datateknikk, Systemutvikling",
+      "grade": "Sivilingeniør / Master of Technology",
+      "description": "Skrev hovedoppgave om automatisk akseptansetesting av webapplikasjoner (AutAT) som i dag er open source prosjektet CubicTest. ",
+      "keywords": ""
+    },
+    {
+      "from": "2002",
+      "to": "2005",
+      "institution": "Høyskolen i Sør-Trøndelag, Trondheim Økonomiske Høyskole",
+      "department": "Markedsføring",
+      "grade": "Bachelor i Økonomi og Administrasjon",
+      "description": "Skrev bacheloroppgave om småbedrifters lojalitet til Trondheim Energiverk.",
+      "keywords": ""
+    },
+    {
+      "from": "1998",
+      "to": "1999",
+      "institution": "Befalsskolen for Infanteriet i Nord-Norge",
+      "department": "GP-Jeger",
+      "grade": "Sersjant",
+      "description": "",
+      "keywords": ""
+    },
+    {
+      "from": "1994",
+      "to": "1998",
+      "institution": "Øvrebyen videregående skole",
+      "department": "Allmennfag, med fordypning i realfag",
       "grade": "",
+      "description": "",
+      "keywords": ""
+    },
+    {
+      "from": "1996",
+      "to": "1997",
+      "institution": "Springs Valley High School, Indiana, USA",
+      "department": "Senior year",
+      "grade": "High School Graduate",
       "description": "",
       "keywords": ""
     }
   ],
   "experience": [
+    {
+      "from": "",
+      "to": "",
+      "company": "",
+      "position": "",
+      "description": "",
+      "keywords": ""
+    },
+    {
+      "from": "",
+      "to": "",
+      "company": "",
+      "position": "",
+      "description": "",
+      "keywords": ""
+    },
     {
       "from": "",
       "to": "",
@@ -52,9 +104,13 @@
     }
   ],
   "certifications": [
-    {
-      "name": "",
-      "year": ""
-    }
+    {"name": "ITIL Foundation v3 Certification in IT Service Management","year": "2011"},
+    {"name": "Oracle Certified Expert, Java Platform, Enterprise Edition 6 Enterprise JavaBeans Developer","year": "2011"},
+    {"name": "PRINCE2 Foundation","year": "2011"},
+    {"name": "TOGAF 9 Certified","year": "2010"},
+    {"name": "CSM Certified ScrumMaster with Jeff Sutherland","year": "2007"},
+    {"name": "FAST ESP5 Intensive Courses","year": "2007"},
+    {"name": "CX-310-055, Sun Certified Programmer for the Java 2 Platform, Standard Edition 5.0","year": "2005"},
+    {"name": ITIL Foundation v2 (3 dager), Foundation Certification in IT Service Management"","year": "2005"},
   ]
 }
