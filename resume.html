@@ -1,7 +1,7 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   {% assign resume = site.data.resume %}
   <head>
     <title>CV - {{resume.name.first}} {{resume.name.last}}</title>
@@ -74,6 +74,12 @@
           <span class="name">{{skill.name}}</span>
           <!-- span class="level">{{skill.level}}</span -->
         </div>
+      {% endfor %}
+    </section>
+    <section id="interests">
+      <h2>Interests</h2>
+      {% for interest in resume.interests %}
+        <span class="interest">{{interest}}</span>
       {% endfor %}
     </section>
     <section id="certifications">
