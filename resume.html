@@ -20,12 +20,12 @@
     <aside id="contact">
       {% assign contact = resume.contact %}
       <div id="address">
-        <span class="street">{{contect.address.street}}</span>
-        <span class="areacode">{{contect.address.areacode}}</span>
-        <span class="area">{{contect.address.area}}</span>
+        <span class="street">{{contact.address.street}}</span>
+        <span class="areacode">{{contact.address.areacode}}</span>
+        <span class="area">{{contact.address.area}}</span>
       </div>
-      <div class="phone">{{contect.phone}}</div>
-      <div class="email">{{contect.email.name}}@{{contect.email.host}}</div>
+      <div class="phone">{{contact.phone}}</div>
+      <div class="email">{{contact.email.name}}@{{contact.email.host}}</div>
     </aside>
     <section id="summary">
       {{resume.summary}}
