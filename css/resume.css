@@ -2,3 +2,15 @@ body {
   font-family: "helvetica neue", helvetica, arial, freesans, clean, sans-serif;
   color: #333;
 }
+
+.image{
+  float: left;
+  width: 100px;
+}
+
+h1{
+  font-size: 2.4rem;
+}
+h2{
+  font-size: 1.6rem;
+}
