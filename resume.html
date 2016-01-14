@@ -1,36 +1,82 @@
 ---
 ---
 {% assign resume = site.data.resume %}
-{{resume}}
 <html>
   <head>
     <title>CV - {{resume.name.first}} {{resume.name.last}}</title>
   </head>
   <body>
     <header>
+      <img src="{{resume.image}}" title="{{resume.name.first}} {{resume.name.last}}"/>
       <h1>{{resume.name.first}} {{resume.name.last}}</h1>
-    </header>
-    <section id="summary">
-      <div class="description">{{resume.description}}</div>
+      <p id="title">{{resume.title}}</p>
       <div class="keywords">
         {% for keyword in resume.keywords %}
           <span>{{keyword}}</span>
         {% endfor %}
       </div>
+    </header>
+    <aside id="contact">
+      {% assign contact = resume.contact %}
+      <div id="address">
+        <span class="street">{{contect.address.street}}</span>
+        <span class="areacode">{{contect.address.areacode}}</span>
+        <span class="area">{{contect.address.area}}</span>
+      </div>
+      <div class="phone">{{contect.phone}}</div>
+      <div class="email">{{contect.email.name}}@{{contect.email.host}}</div>
+    </aside>
+    <section id="summary">
+      {{resume.summary}}
     </section>
-    <section id="experience">
+    <section id="experiences">
+      <h2>Experience</h2>
       {% for exp in resume.experiences %}
-        <div>
-          <span class="name">{{exp.company}}</span>
-          <span class="title">{{exp.title}}</span>
+        <div class="experience">
+          <div class="company">{{exp.company}}</div>
+          <div class="position">{{exp.position}}</div>
+          <div class="description">{{exp.description}}</div>
+          <div>
+            {% for keyword in exp.keywords %}
+              <span>{{keyword}}</span>
+            {% endfor %}
+          </div>
         </div>
       {% endfor %}
     </section>
-    <section id="eduction">
-      {% for exp in resume.experiences %}
-        <div>
-          <span class="name">{{exp.company}}</span>
-          <span class="title">{{exp.title}}</span>
+    <section id="eductions">
+      <h2>Education</h2>
+      {% for edu in resume.education %}
+        <div class="education">
+          <div class="from">{{edu.from}}</div>
+          <div class="to">{{edu.to}}</div>
+          <div class="institution">{{edu.institution}}</div>
+          <div class="department">{{edu.department}}</div>
+          <div class="grade">{{edu.grade}}</div>
+          <div class="description">{{exp.description}}</div>
+          <div>
+            {% for keyword in edu.keywords %}
+              <span>{{keyword}}</span>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      {% for skill in resume.skills %}
+        <div class="skill">
+          <span class="name">{{skill.name}}</span>
+          <span class="level">{{skill.level}}</span>
+        </div>
+      {% endfor %}
+    </section>
+    <section id="certifications">
+      <h2>Certifications</h2>
+      {% for certification in resume.certifications %}
+        <div class="certification">
+          <span class="year">{{certification.year}}</span>
+          <span class="name">{{certification.name}}</span>
         </div>
       {% endfor %}
     </section>
