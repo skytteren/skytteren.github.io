@@ -9,8 +9,8 @@
   </head>
   <body>
     <header>
-      <img src="{{resume.image}}" title="{{resume.name.first}} {{resume.name.last}}"/>
       <h1>{{resume.name.first}} {{resume.name.last}}</h1>
+      <img src="{{resume.image}}" title="{{resume.name.first}} {{resume.name.last}}"/>
       <p id="title">{{resume.title}}</p>
       <div class="keywords">
         {% for keyword in resume.keywords %}
