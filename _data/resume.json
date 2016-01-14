@@ -3,6 +3,7 @@
     "first": "Stein Kåre",
     "last": "Skytteren"
   },
+  "image": "/image/vcard.png"
   "birthday": {
     "year": 1978,
     "month": 2,
@@ -12,15 +13,15 @@
     "address": {
       "street": "Wilh. Wilhelmsens vei 95",
       "areacode": "1362",
-      "area": "Hosle"
+      "area": "HOSLE"
     },
-    "phone": "922 56 047",
+    "phone": "+47 922 56 047",
     "email": {
       "name": "sk",
       "host": "skytteren.no"
     }
   },
-  "title": "",
+  "title": "Senior",
   "keywords": [""],
   "summary": "", 
   "education":  [
