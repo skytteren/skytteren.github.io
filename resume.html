@@ -1,1 +1,21 @@
-r
+---
+---
+{% assign resume = site.data.resume %}
+<html>
+  <head>
+    <title>CV - {{resume.name.first}} {{resume.name.last}}</title>
+  </head>
+  <body>
+    <header>
+      <h1>{{resume.name.first}} {{resume.name.last}}</h1>
+    </header>
+    <section id="experience">
+      {% for exp in resume.experiences %}
+        <div>
+          <span class="name">{{exp.company}}</span>
+          <span class="title">{{exp.title}}</span>
+        </div>
+      {% endfor %}
+    </section>
+  </body>
+</html>
