@@ -9,7 +9,23 @@
     <header>
       <h1>{{resume.name.first}} {{resume.name.last}}</h1>
     </header>
+    <section id="summary">
+      <div class="description">{{resume.description}}</div>
+      <div class="keywords">
+        {% for keyword in resume.keywords %}
+          <span>{{keyword}}</span>
+        {% endfor %}
+      </div>
+    </section>
     <section id="experience">
+      {% for exp in resume.experiences %}
+        <div>
+          <span class="name">{{exp.company}}</span>
+          <span class="title">{{exp.title}}</span>
+        </div>
+      {% endfor %}
+    </section>
+    <section id="eduction">
       {% for exp in resume.experiences %}
         <div>
           <span class="name">{{exp.company}}</span>
