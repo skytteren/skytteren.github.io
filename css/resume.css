@@ -1,3 +1,38 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+figure, figcaption, footer, header, hgroup,menu, nav, section, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section, div {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 html{
     font-family: "helvetica neue", helvetica, arial, freesans, clean, sans-serif;
     line-height: 1.4;
@@ -7,10 +42,16 @@ html{
   html{
     font-size: 14px;
   }
+  section, header, aside{
+      margin: 1rem .5rem !important;
+  }
 }
 @media screen and (min-width: 570px){
   html{
     font-size: 15px;
+  }
+  section, header, aside{
+      margin: 1rem .5rem !important;
   }
 }
 @media screen and (min-width: 620px){
@@ -53,18 +94,109 @@ body {
   color: #333;
 }
 
-.image{
-  float: left;
-  width: 100px;
+h1, h2, h3, h4{
+  margin: 0 0 1rem 0;
+  font-weight: bold;
 }
 
 h1{
   font-size: 2.4rem;
 }
-h2{
+h2, #title{
   font-size: 1.6rem;
 }
 
-section, header{
-    padding: 1rem 10%;
+section h2{
+  padding: 0 auto;
+  margin-left: 0;
+}
+
+section, header, aside{
+    margin: 1rem 2rem;
+}
+
+header{
+  width: 30rem;
+}
+
+.personinfo{
+  float: right;
+  clear: both;
+  width: 19rem;
+}
+
+section{
+  clear: both;
+  width: 30rem;
+}
+
+#image{
+  float: left;
+  width: 10rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+#address, #phone, #email, .keywords{
+  margin-bottom: 0.4rem;
+}
+
+p{
+  margin: .2rem 0;
+}
+
+.firstname{
+  word-spacing: 0;
+}
+
+#title{
+  font-size: 1.6rem;
+}
+
+.position, .grade{
+    font-weight: bold;
+}
+.institution, .company{
+  font-style: italic;
+}
+
+.experience, .education, .certification, .misc{
+  display: block;
+  margin-bottom: .4rem;
+}
+
+.timerange, .info, .year, .name, .type{
+  display: inline-block;
+}
+
+.timerange, .year, .type{
+  margin-right: .5rem;
+  vertical-align: top;
+}
+.timerange, .type{
+  width: 8rem;
+  text-align: right;
+}
+.year{
+  margin-left: 4rem;
+  width: 4rem;
+}
+.from, .to{
+  display: inline-block;
+}
+.to{
+  width: 4rem;
+  text-align: left;
+}
+.info, .name{
+  word-wrap: normal;
+  width: 20.6rem;
+}
+
+.keywords{
+  font-weight: bold;
+}
+
+.keywords span + span:before, .interest + .interest:before{
+    content: "/ ";
 }

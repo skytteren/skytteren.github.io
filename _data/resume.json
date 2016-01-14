@@ -22,8 +22,8 @@
     }
   },
   "title": "Utvikler",
-  "keywords": ["Entreprenør", "Datateknikk", "Økonomi"],
-  "summary": "Stein Kåre er kreativ, oppgave og relasjonsfokusert, med høy arbeidskapasitet og gjennomføringsevne. Liker teamarbeid og karakteriseres som omgjenglig og positiv, med sans for utfordringer. Han har gjennom sine forskjellige studier og sin arbeidserfaring utviklet evnen til å forstå og mestre komplekse, tverrfaglig problemstillinger hurtig og nøyaktig.", 
+  "keywords": ["Intraprenør", "Datateknikk", "Økonomi"],
+  "summary": "Stein Kåre er kreativ, oppgave og relasjonsfokusert, med høy arbeidskapasitet og gjennomføringsevne. Liker teamarbeid og karakteriseres som omgjenglig og positiv, med sans for utfordringer. Han har gjennom sine forskjellige studier og sin arbeidserfaring utviklet evnen til å forstå og mestre komplekse, tverrfaglig problemstillinger hurtig og nøyaktig.",
   "education":  [
     {
       "from": "2000",
@@ -57,7 +57,7 @@
       "to": "1998",
       "institution": "Øvrebyen videregående skole",
       "department": "Allmennfag, med fordypning i realfag",
-      "grade": "",
+      "grade": "Studiekompetanse",
       "description": "",
       "keywords": ""
     },
@@ -137,5 +137,6 @@
     {"name": "Sun Certified Programmer for the Java 2 Platform, Standard Edition 5.0","year": "2005"},
     {"name": "ITIL Foundation v2 (3 dager), Foundation Certification in IT Service Management", "year": "2005"},
   ],
+  "lisences": ["Førerkort klasse B"],
   "interests": ["Ølbrygging", "Kite", "Løping", "Telemark", "Familie"]
 }

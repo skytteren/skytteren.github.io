@@ -1,73 +1,45 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   {% assign resume = site.data.resume %}
   <head>
     <title>CV - {{resume.name.first}} {{resume.name.last}}</title>
     <link rel="stylesheet" href="/css/resume.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
   <body>
     <header>
-      <h1>{{resume.name.first}} {{resume.name.last}}</h1>
-      <img src="{{resume.image}}" title="{{resume.name.first}} {{resume.name.last}}"/>
-      <p id="title">{{resume.title}}</p>
-      <div class="keywords">
-        {% for keyword in resume.keywords %}
-          <span>{{keyword}}</span>
-        {% endfor %}
+      <div class="personinfo">
+        <h1 class="name"><span class="firstname">{{resume.name.first}}</span> <span class="lastname">{{resume.name.last}}</span></h1>
+        <p id="title">{{resume.title}}</p>
+        <div class="keywords">
+          {% for keyword in resume.keywords %}
+            <span>{{keyword}}</span>
+          {% endfor %}
+        </div>
       </div>
+      <img src="{{resume.image}}" id="image" title="{{resume.name.first}} {{resume.name.last}}"/>
     </header>
     <aside id="contact">
       {% assign contact = resume.contact %}
       <div id="address">
-        <span class="street">{{contact.address.street}}</span>
-        <span class="areacode">{{contact.address.areacode}}</span>
-        <span class="area">{{contact.address.area}}</span>
+        <div>
+          <span class="street">{{contact.address.street}}</span>
+        </div>
+        <div>
+          <span class="areacode">{{contact.address.areacode}}</span>
+          <span class="area">{{contact.address.area}}</span>
+        </div>
       </div>
-      <div class="phone">{{contact.phone}}</div>
-      <div class="email">{{contact.email.name}}@{{contact.email.host}}</div>
+      <div id="phone">{{contact.phone}}</div>
+      <div id="email">{{contact.email.name}}@{{contact.email.host}}</div>
     </aside>
     <section id="summary">
       {{resume.summary}}
     </section>
-    <section id="experiences">
-      <h2>Experience</h2>
-      {% for exper in resume.experience %}
-        <div class="experience">
-          <div class="from">{{exper.from}}</div>
-          <div class="to">{{exper.to}}</div>
-          <div class="company">{{exper.company}}</div>
-          <div class="position">{{exper.position}}</div>
-          <div class="description">{{exper.description}}</div>
-          <div>
-            {% for keyword in exp.keywords %}
-              <span>{{keyword}}</span>
-            {% endfor %}
-          </div>
-        </div>
-      {% endfor %}
-    </section>
-    <section id="eductions">
-      <h2>Education</h2>
-      {% for edu in resume.education %}
-        <div class="education">
-          <div class="from">{{edu.from}}</div>
-          <div class="to">{{edu.to}}</div>
-          <div class="institution">{{edu.institution}}</div>
-          <div class="department">{{edu.department}}</div>
-          <div class="grade">{{edu.grade}}</div>
-          <div class="description">{{exper.description}}</div>
-          <div>
-            {% for keyword in exper.keywords %}
-              <span>{{keyword}}</span>
-            {% endfor %}
-          </div>
-        </div>
-      {% endfor %}
-    </section>
     <section id="skills">
-      <h2>Skills</h2>
+      <h2>Ferdigheter</h2>
       {% for skill in resume.skills %}
         <div class="skill">
           <span class="name">{{skill.name}}</span>
@@ -75,20 +47,81 @@
         </div>
       {% endfor %}
     </section>
-    <section id="interests">
-      <h2>Interests</h2>
-      {% for interest in resume.interests %}
-        <span class="interest">{{interest}}</span>
+    <section id="experiences">
+      <h2>Erfaring</h2>
+      {% for exper in resume.experience %}
+        <div class="experience">
+          <div class="timerange">
+            <div class="from">{{exper.from}}</div>
+            <div class="to">{{exper.to}}</div>
+          </div>
+          <div class="info">
+            <div class="position">{{exper.position}}</div>
+            <div class="company">{{exper.company}}</div>
+            <p class="description">{{exper.description}}</p>
+            <div>
+              {% for keyword in exp.keywords %}
+                <span>{{keyword}}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+    <section id="eductions">
+      <h2>Utdanning</h2>
+      {% for edu in resume.education %}
+        <div class="education">
+          <div class="timerange">
+            <div class="from">{{edu.from}}</div>
+            <div class="to">{{edu.to}}</div>
+          </div>
+          <div class="info">
+            <div class="grade">{{edu.grade}}</div>
+            <div class="institution">{{edu.institution}}</div>
+            <div class="department">{{edu.department}}</div>
+            <div class="description">{{exper.description}}</div>
+            <div>
+              {% for keyword in exper.keywords %}
+                <span>{{keyword}}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
       {% endfor %}
     </section>
     <section id="certifications">
-      <h2>Certifications</h2>
+      <h2>Sertifiseringer</h2>
       {% for certification in resume.certifications %}
         <div class="certification">
           <span class="year">{{certification.year}}</span>
           <span class="name">{{certification.name}}</span>
         </div>
       {% endfor %}
+    </section>
+
+    <section id="misc">
+      <h2>Annet</h2>
+      <div class="misc">
+        <div class="type">
+          Sertifikat
+        </div>
+        <div class="info">
+          {% for lisence in resume.lisences %}
+            <span class="interest">{{lisence}}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="misc">
+        <div class="type">
+          Interesser
+        </div>
+        <div class="info">
+          {% for interest in resume.interests %}
+            <span class="interest">{{interest}}</span>
+          {% endfor %}
+        </div>
+      </div>
     </section>
   </body>
 </html>
