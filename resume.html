@@ -33,11 +33,13 @@
     </section>
     <section id="experiences">
       <h2>Experience</h2>
-      {% for exp in resume.experience %}
+      {% for exper in resume.experience %}
         <div class="experience">
-          <div class="company">{{exp.company}}</div>
-          <div class="position">{{exp.position}}</div>
-          <div class="description">{{exp.description}}</div>
+          <div class="from">{{exper.from}}</div>
+          <div class="to">{{exper.to}}</div>
+          <div class="company">{{exper.company}}</div>
+          <div class="position">{{exper.position}}</div>
+          <div class="description">{{exper.description}}</div>
           <div>
             {% for keyword in exp.keywords %}
               <span>{{keyword}}</span>
