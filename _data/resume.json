@@ -130,10 +130,48 @@
     }
   ],
   "skills": [
-    {
-      "name": "scala",
-      "level": 5
-    }
+    { "name": "Scala", "level": 5 },
+    { "name": "Java", "level": 5 },
+    { "name": "JavaScript", "level": 4},
+    { "name": "Scrum"} 
+
+Edit skill6Scrum
+
+Edit skill5Certified Scrum Master...
+
+Edit skill4Enterprise Architecture
+
+Edit skill2Technical Project...
+
+Edit skill2Software Development
+
+Edit skill1PRINCE2
+
+Stein Kåre also knows about...
+
+Edit skill
+1Project Management
+1Software Project...
+Agile
+TOGAF
+ITIL
+HTML
+ITIL v3 Foundations...
+Team Management
+GTD
+Financial Services
+Leasing
+Banking
+Test Driven Development
+Software Engineering
+Continuous Improvement
+Maven
+IT Strategy
+Architecture
+Web Services
+Management
+Agile Project Management
+
   ],
   "certifications": [
     {"name": "ITIL Foundation v3 Certification in IT Service Management","year": "2011"},
