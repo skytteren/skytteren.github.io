@@ -28,7 +28,7 @@
     {
       "from": "2000",
       "to": "2005",
-      "institution": "Norges Teknisk-Naturvitenskaplige Universitet (NTNU)",
+      "institution": "Norges Teknisk-Naturvitenskaplige Universitet",
       "department": "Datateknikk, Systemutvikling",
       "grade": "Sivilingeniør / Master of Technology",
       "description": "Skrev hovedoppgave om automatisk akseptansetesting av webapplikasjoner (AutAT) som i dag er open source prosjektet CubicTest. ",
@@ -107,7 +107,7 @@
     {
       "from": "2001",
       "to": "2005",
-      "company": "NTNU",
+      "company": "Norges Teknisk-Naturvitenskaplige Universitet",
       "position": "Undervisningsassistent",
       "description": "Veileder i forskjellige fag; systemutvikling, objektorientert programmering, kundestyrt prosjekt, IT-intro.",
       "keywords": "pedagogikk"
