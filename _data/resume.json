@@ -133,44 +133,23 @@
     { "name": "Scala", "level": 5 },
     { "name": "Java", "level": 5 },
     { "name": "JavaScript", "level": 4},
-    { "name": "Scrum"} 
-
-Edit skill6Scrum
-
-Edit skill5Certified Scrum Master...
-
-Edit skill4Enterprise Architecture
-
-Edit skill2Technical Project...
-
-Edit skill2Software Development
-
-Edit skill1PRINCE2
-
-Stein Kåre also knows about...
-
-Edit skill
-1Project Management
-1Software Project...
-Agile
-TOGAF
-ITIL
-HTML
-ITIL v3 Foundations...
-Team Management
-GTD
-Financial Services
-Leasing
-Banking
-Test Driven Development
-Software Engineering
-Continuous Improvement
-Maven
-IT Strategy
-Architecture
-Web Services
-Management
-Agile Project Management
+    { "name": "Scrum", "level": 3},
+    { "name": "Enterprise Architecture", "level": 1},
+    { "name": "Teknisk prosjektledelse", "level": 1},
+    { "name": "Systemutvikling", "level": 1},
+    { "name": "PRINCE2", "level": 1},
+    { "name": "Projektledelse", "level": 1},
+    { "name": "Agile", "level": 1},
+    { "name": "TOGAF", "level": 1},
+    { "name": "ITIL", "level": 1},
+    { "name": "HTML", "level": 1},
+    { "name": "Team ledelse", "level": 1},
+    { "name": "Financial Services", "level": 1},
+    { "name": "Banking", "level": 1},
+    { "name": "Test Driven Development", "level": 1},
+    { "name": "Continuous Improvement", "level": 1},
+    { "name": "IT Strategy", "level": 1},
+    { "name": "Testing", "level": 1}
 
   ],
   "certifications": [
