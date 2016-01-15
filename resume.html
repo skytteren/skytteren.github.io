@@ -22,6 +22,9 @@
       <img src="{{resume.image}}" id="image" title="{{resume.name.first}} {{resume.name.last}}"/>
     </header>
     <aside id="contact">
+      <div id="birthday">
+        <span>{{resume.birthday.date}}.{{resume.birthday.month}}.{{resume.birthday.year}}</span>
+      </div>
       {% assign contact = resume.contact %}
       <div id="address">
         <div>
@@ -59,8 +62,8 @@
             <div class="position">{{exper.position}}</div>
             <div class="company">{{exper.company}}</div>
             <p class="description">{{exper.description}}</p>
-            <div>
-              {% for keyword in exp.keywords %}
+            <div class="keywords">
+              {% for keyword in exper.keywords %}
                 <span>{{keyword}}</span>
               {% endfor %}
             </div>
@@ -81,7 +84,7 @@
             <div class="institution">{{edu.institution}}</div>
             <div class="department">{{edu.department}}</div>
             <div class="description">{{exper.description}}</div>
-            <div>
+            <div class="keywords">
               {% for keyword in exper.keywords %}
                 <span>{{keyword}}</span>
               {% endfor %}

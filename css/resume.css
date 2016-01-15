@@ -137,7 +137,7 @@ section{
   margin-bottom: 1rem;
 }
 
-#address, #phone, #email, .keywords{
+#address, #phone, #email, #birthday, header .keywords{
   margin-bottom: 0.4rem;
 }
 
@@ -193,7 +193,7 @@ p{
   width: 20.6rem;
 }
 
-.keywords{
+header .keywords{
   font-weight: bold;
 }
 
