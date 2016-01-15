@@ -119,6 +119,14 @@
       "position": "Teknisk assistent",
       "description": "",
       "keywords": ["data rekonstruksjon", "lagringsmedier", "data etterforskning"]
+    },
+    {
+      "from": "1999",
+      "to": "2000",
+      "company": "Jegerbataljonen, Garnisonen i Porsanger",
+      "position": "Jegerlagfører",
+      "description": "Utdanning og ledelse av lag og tropp.",
+      "keywords": ["ledelse", "undervisning"]
     }
   ],
   "skills": [
