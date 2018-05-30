@@ -1,0 +1,53 @@
+---
+layout: math
+lang: en
+title: Math subtraction exercises (0-100)
+categories:
+- math
+tags:
+- basic
+- devide
+---
+<div>
+  
+  <style type="text/css">
+      .stykke{
+        padding-left: 5px;
+        text-align: right;
+      }
+  </style>
+  
+  <div id="xtable">
+
+  </div>
+
+
+  <script>
+    var xtableElement = document.getElementById("xtable");
+    function randomNumber(){
+      return Math.floor(Math.random() * 101);
+    }
+    function element(){ 
+      var a = randomNumber();
+      var b = randomNumber();
+      val max = Math.max(a, b);
+      val min = Math.min(a, b);
+      return '<td class="stykke"><span class="factor">' + max + '</span> - <span class="factor">' + min + '</span> = ___ </td>';
+    }
+    function row(){
+      var rowText = "";
+      for(var i = 0; i < 6; i++){
+        rowText += element(); 
+      }
+      return '<tr>' + rowText + "</tr>";
+    }
+    function table(){
+      var rowsText = "";
+      for(var i = 0; i < 25; i++){
+        rowsText += row(); 
+      }
+      return '<table>' + rowsText + '</table>';
+    }
+    xtableElement.innerHTML = table();
+  </script>
+</div>
