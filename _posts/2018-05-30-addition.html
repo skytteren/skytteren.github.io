@@ -1,0 +1,55 @@
+---
+layout: math
+lang: en
+title: Math addition exercises (0-10)
+categories:
+- math
+tags:
+- basic
+- multiply
+---
+<div>
+  <style type="text/css">
+    .stykke{
+      padding-left: 5px;
+      text-align: right;
+    }
+  </style>
+  
+  <div id="xtable">
+
+  </div>
+
+
+  <script>
+    var xtableElement = document.getElementById("xtable");
+
+    function randomNumber(){
+      return Math.floor(Math.random() * 11);
+    }
+
+    function element(){ 
+      return '<td class="stykke"><span class="factor">' + randomNumber() + '</span> + <span class="factor">' + randomNumber() + '</span> = __ </td>';
+    }
+
+
+    function row(){
+      var rowText = "";
+      for(var i = 0; i < 8; i++){
+        rowText += element(); 
+      }
+      return '<tr>' + rowText + "</tr>";
+    }
+
+    function table(){
+      var rowsText = "";
+      for(var i = 0; i < 25; i++){
+        rowsText += row(); 
+      }
+      return '<table>' + rowsText + '</table>';
+    }
+
+    xtableElement.innerHTML = table();
+
+  </script>
+</div>
