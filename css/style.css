@@ -21,7 +21,22 @@ h1 .thin{
   font-weight: 100;
 }
 
+.categories{
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+.tags{
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
 .container{
-  max-width: 800;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+section{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
