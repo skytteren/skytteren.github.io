@@ -32,11 +32,11 @@ tags:
       var b = randomNumber();
       val max = Math.max(a, b);
       val min = Math.min(a, b);
-      return '<td class="stykke"><span class="factor">' + max + '</span> - <span class="factor">' + min + '</span> = ___ </td>';
+      return '<td class="stykke"><span class="factor">' + max + '</span> - <span class="factor">' + min + '</span> = __ </td>';
     }
     function row(){
       var rowText = "";
-      for(var i = 0; i < 6; i++){
+      for(var i = 0; i < 8; i++){
         rowText += element(); 
       }
       return '<tr>' + rowText + "</tr>";
