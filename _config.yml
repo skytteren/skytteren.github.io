@@ -3,3 +3,5 @@ name: Stein Kåre Skytteren
 highlighter: rouge
 encoding: utf-8
 
+gems:
+  - jekyll-gist
