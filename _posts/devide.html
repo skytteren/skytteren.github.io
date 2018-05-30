@@ -1,0 +1,49 @@
+---
+layout: post
+lang: en
+title: Math divide exercises
+---
+<div>
+  <div id="xtable">
+
+    <style scoped="scoped" type="text/css">>
+      .factor{
+         width: 15px;
+         display: inline-block;
+         text-align: right;
+      }
+      .stykke{
+        padding-left: 5px;
+      }
+    </style>
+
+  </div>
+
+
+  <script>
+    var xtableElement = document.getElementById("xtable");
+    function randomNumber(){
+      return Math.floor(Math.random() * 11);
+    }
+    function element(){ 
+      var a = randomNumber();
+      var b = randomNumber();
+      return '<td class="stykke"><span class="factor">' + (a * b) + '</span> / <span class="factor">' + b + '</span> = __ </td>';
+    }
+    function row(){
+      var rowText = "";
+      for(var i = 0; i < 5; i++){
+        rowText += element(); 
+      }
+      return '<tr>' + rowText + "</tr>";
+    }
+    function table(){
+      var rowsText = "";
+      for(var i = 0; i < 20; i++){
+        rowsText += row(); 
+      }
+      return '<table>' + rowsText + '</table>';
+    }
+    xtableElement.innerHTML = table();
+  </script>
+</div>
