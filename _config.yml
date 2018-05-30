@@ -1,5 +1,5 @@
 name: Stein Kåre Skytteren
-markdown: redcarpet
+
 highlighter: pygments
 encoding: utf-8
 gems:
