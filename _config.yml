@@ -1,9 +1,5 @@
 name: Stein Kåre Skytteren
 
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
-gems:
-#  - jekyll-paginate
-  - redcarpet
-  - jekyll-gist
-  - pygments.rb
+
