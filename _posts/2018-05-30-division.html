@@ -29,7 +29,7 @@ tags:
     }
     function element(){ 
       var a = randomNumber();
-      var b = randomNumber();
+      var b = Math.max(randomNumber(), 1);
       return '<td class="stykke"><span class="factor">' + (a * b) + '</span> / <span class="factor">' + b + '</span> = __ </td>';
     }
     function row(){
