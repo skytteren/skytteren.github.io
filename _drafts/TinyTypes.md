@@ -3,7 +3,7 @@ layout: post
 title: Tiny Types in Scala
 date: 2014-09-08
 categories:
- - code
+ - Code
 tags:
  - scala
 ---

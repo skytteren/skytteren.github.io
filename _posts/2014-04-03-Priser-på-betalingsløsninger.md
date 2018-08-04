@@ -3,7 +3,7 @@ layout: post
 lang: "no"
 title: Priser på betalingsløsninger
 categories:
-- entrepreneur
+- Entrepreneur
 tags:
 - betalingsløsninger
 ---

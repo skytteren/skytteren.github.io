@@ -1,5 +1,12 @@
 name: Stein Kåre Skytteren
 
+collections:
+  javacast:
+    output: true
+
+includes:
+  - _pages
+
 highlighter: rouge
 encoding: utf-8
 

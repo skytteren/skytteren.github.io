@@ -4,7 +4,7 @@ lang: en
 title: Installing Docker on OS X with Homebrew
 date: 2014-06-30
 categories:
-- code
+- Code
 tags:
 - docker
 ---

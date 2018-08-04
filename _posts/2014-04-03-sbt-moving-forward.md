@@ -3,7 +3,7 @@ layout: post
 lang: en
 title: sbt... moving forward
 categories:
-- code
+- Code
 tags:
 - sbt
 - scala

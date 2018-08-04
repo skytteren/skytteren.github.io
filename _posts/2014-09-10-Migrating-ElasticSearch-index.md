@@ -4,11 +4,11 @@ lang: en
 title: Migrating an Elasticsearch index
 date: 2014-09-10
 categories:
- - code
+ - Code
 tags:
- - elasticsearch
- - elastic4s
- - scala
+ - Elasticsearch
+ - Elastic4s
+ - Scala
 ---
 
 Migrating an [ElasticSearch](http://elasticsearch.org) index can be challenging.

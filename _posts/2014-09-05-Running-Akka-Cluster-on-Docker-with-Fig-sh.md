@@ -4,12 +4,12 @@ lang: en
 title: Running an Akka Cluster on Docker with Fig.sh
 date: 2014-09-05
 categories:
- - code
+ - Code
 tags:
- - akka
- - cluster
- - docker
- - scala
+ - Akka
+ - Cluster
+ - Docker
+ - Scala
  - fig.sh
 ---
 [Akka](http://akka.io) got this amazing technology called [clustering](http://doc.akka.io/docs/akka/snapshot/scala/cluster-usage.html).

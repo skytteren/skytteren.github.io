@@ -6,7 +6,7 @@ date: 2014-03-14 21:45:30
 categories:
 - Code
 tags:
-- VCard
+- vcard
 ---
 
 In order to make it easy to distribute correct information about my contact information I descided to create vcard.
