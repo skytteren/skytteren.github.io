@@ -20,11 +20,6 @@ lang: no
     {% for episode in episodes %}
       <div>
             <h3><a href="{{ episode.url }}">{{ episode.title }}</a></h3>
-            <div class="tags">
-              {% for tag in episode.tags %}
-                <span>#{{ tag }} </span>
-              {% endfor %}
-            </div>
             <div class="content">
                 <iframe width="300px" height="200px" src="https://www.youtube-nocookie.com/embed/{{ episode.youtube }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               {{ episode.excerpt }}
