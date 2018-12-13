@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>BINGO</title>
+        <style type="text/css">
+            h1, h2{
+                text-align: center;
+            }
+          
+            .svar{
+                padding-left: 10px;
+                text-align: right;
+                font-size: 20px;
+            }
+            #bingosvar td{
+                width: 100px;
+                height: 100px;
+                border: 1px solid black;
+                margin: 0;
+            }
+            .grey{
+                background-color: lightgrey;
+            }
+            main{
+                margin: 50px auto;
+                width: 600px;
+            }
+            div{
+                margin: 40px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Martines BINGO</h1>
+            <h2>Til klasse 4B</h2>
+            <div id="bingo"></div>
+            <div id="bingosvar">
+                <table>
+                    <tr>
+                        <td class="grey"></td><td class="grey"></td class="grey"><td class="grey"></td><td class="grey"></td><td class="grey"></td>
+                    </tr>
+                    <tr>
+                        <td class="grey"></td><td></td><td></td><td></td><td class="grey"></td>
+                    </tr>
+                    <tr>
+                        <td class="grey"></td><td></td><td></td><td></td><td class="grey"></td>
+                    </tr>
+                    <tr>
+                        <td class="grey"></td><td></td><td></td><td></td><td class="grey"></td>
+                    </tr>
+                    <tr>
+                        <td class="grey"></td><td class="grey"></td class="grey"><td class="grey"></td><td class="grey"></td><td class="grey"></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+    <script>
+        function randomNumber(){
+            return Math.floor(Math.random() * 11);
+        }
+
+        function alleTallFraEnTilTi() {
+            let liste = [];
+            for(let i = 0; i < 10; i++){
+                console.log(i);
+                liste[i] = i + 1;
+            }
+            return liste;
+        }
+
+
+        function alleGangeSvar(){
+            let resultat = "<table>";
+            for(let i = 1; i < 11; i++){
+                resultat += "<tr>";
+                for(let j = 1; j < 11; j++){
+                    resultat += "<td class='svar'>" + (j * i) + "</td>"
+                }
+                resultat += "</tr>";
+            }
+            return resultat + "</table>";
+        }
+
+        document.getElementById("bingo").innerHTML = alleGangeSvar();
+
+
+    </script>
+</html>
