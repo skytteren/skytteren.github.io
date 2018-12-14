@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Start BINGO</title>
+        <style type="text/css">
+            h1, h2{
+                text-align: center;
+            }
+            #nyttSpm{
+                font-size: 200px;
+                text-align: center;
+            }
+            #alleSpm{
+                font-size: 50px;
+                text-align: center;
+            }
+            .svar{
+                padding-left: 10px;
+                text-align: right;
+                font-size: 20px;
+            }
+            #bingosvar td{
+                border-collapse: collapse;
+                padding: 0;
+                margin: 0;
+                width: 80px;
+                height: 80px;
+                border: 1px solid black;
+            }
+            .grey{
+                background-color: lightgrey;
+            }
+            main{
+                margin: 50px auto;
+                width: 600px;
+            }
+            .botton{
+                text-align: center;
+            }
+            button{
+                background-color: rgb(35, 182, 35);
+                width: 200px;
+                font-size: 2rem;
+                border: 1px solid #111;
+                border-radius: 10px;
+            }
+            table{
+                margin: 40px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Martines BINGO</h1>
+            <h2>Til klasse 4B</h2>
+            <div class="botton">
+                <button id="oppdater">
+                    Oppdater
+                </button>
+            </div>
+            <div id="bingo">
+                <div id="nyttSpm"></div>
+                <div>
+                    <ol id="alleSpm" reversed="reversed">
+                    </ol>
+                </div>
+            </div>
+            
+        </main>
+    </body>
+    <script>
+        function randomNumber(){
+            return Math.floor(Math.random() * 11);
+        }
+
+        let alleSpm = document.getElementById("alleSpm");
+        let nyttSpm = document.getElementById("nyttSpm");
+
+        function nyttSporsmal(){
+            console.log("KLIKK");
+            let forste = randomNumber();
+            let andre = randomNumber();
+
+            let spm = forste + " * " + andre;
+            let barn = document.createElement("li");
+            barn.innerHTML = spm;
+            alleSpm.prepend(barn);
+            nyttSpm.innerHTML = spm;
+        }
+
+        document.getElementById("oppdater").addEventListener("click", nyttSporsmal);
+
+        //document.getElementById("bingo").innerHTML = alleGangeSvar();
+
+    </script>
+</html>
