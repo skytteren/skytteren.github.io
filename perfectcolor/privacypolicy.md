@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 lang: en
 title: PerfectColor Privacy Policy
 date: 2014-03-14 21:35:30
